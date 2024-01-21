@@ -1,0 +1,229 @@
+body{
+    background-color: rgb(227, 212, 194);
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(208, 193, 175);
+}
+.imge1{
+    height: auto;
+    width: 370px;
+    display: block;
+    margin: 0 auto;
+}
+.EB{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 162, 255);
+}
+.EB1{
+    display: flex;
+    justify-content: center;
+}
+.imge2{
+    height: auto;
+    width: 360px;
+    display: block;
+    margin: 0 auto;
+}
+.A{
+    display: flex;
+    justify-content: center;
+    color: rgb(198, 144, 78);
+}
+.A2{
+    display: flex;
+    justify-content: center;
+}
+.imge3{
+    height: auto;
+    width: 280px;
+    display: block;
+    margin: 0 auto;
+}
+.IC{
+    display: flex;
+    justify-content: center;
+    color: purple;
+}
+.IC3{
+    display: flex;
+    justify-content: center;
+}
+.imge4{
+    height: auto;
+    width: 340px;
+    display: block;
+    margin: 0 auto;
+}
+.WS{
+    display: flex;
+    justify-content: center;
+    color: rgb(50, 50, 143);
+}
+.WS4{
+    display: flex;
+    justify-content: center;
+}
+.imge5{
+    height: auto;
+    width: 340px;
+    display: block;
+    margin: 0 auto;
+}
+.TB{
+    display: flex;
+    justify-content: center;
+    color: rgb(164, 27, 3);
+}
+.TB5{
+    display: flex;
+    justify-content: center;
+}
+.imge6{
+    height: auto;
+    width: 370px;
+    display: block;
+    margin: 0 auto;
+}
+.GS{
+    display: flex;
+    justify-content: center;
+    color: rgb(42, 165, 187);
+}
+.GS6{
+    display: flex;
+    justify-content: center;
+}
+.imge7{
+    height: auto;
+    width: 370px;
+    display: block;
+    margin: 0 auto;
+}
+.IHP{
+    display: flex;
+    justify-content: center;
+    color: rgb(207, 139, 207);
+}
+.IHP7{
+    display: flex;
+    justify-content: center;
+}
+.imge8{
+    height: auto;
+    width: 320px;
+    display: block;
+    margin: 0 auto;
+}
+.D{
+    display: flex;
+    justify-content: center;
+    color: goldenrod;
+}
+.D8{
+    display: flex;
+    justify-content: center;
+}
+.imge9{
+    height: auto;
+    width: 320px;
+    display: block;
+    margin: 0 auto;
+}
+.IT{
+    display: flex;
+    justify-content: center;
+    color: rgb(188, 109, 122);
+}
+.IT9{
+    display: flex;
+    justify-content: center;
+}
+.imge10{
+    height: auto;
+    width: 360px;
+    display: block;
+    margin: 0 auto;
+}
+.PW{
+    display: flex;
+    justify-content: center;
+    color: rgb(28, 180, 81);
+}
+.PW10{    
+    display: flex;
+    justify-content: center;
+}
+.films{
+    display: flex;
+    justify-content: center;
+}
+.nav1{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: rgb(208, 193, 175);
+}
+.menu{
+    display: flex;
+}
+.nav2{
+    display: flex;
+}
+.nav3{
+    display: flex;
+}
+.nav4{
+    display: flex;
+}
+
+/*Le css des publicités dans le footer*/
+.swiper-slide {
+    height: auto;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.librairie {
+    padding: 40px 160px;
+    height: 320px;
+}
+button {
+    margin-left: 20px;
+    flex-direction: row;
+    margin-bottom: 30px;
+    padding: 10px 32px;
+    cursor: pointer;
+}
+
+.message-error {
+    border: 1px solid rgba(212, 42, 0, 1);
+    color: rgb(212, 42, 0);
+    background-color: rgba(212, 42, 0, 0.4);
+    padding: 16px 32px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.message-success {
+    border: 1px solid rgb(81, 150, 2);
+    color: rgb(81, 150, 2);
+    background-color: rgba(113, 212, 0, 0.4);
+    padding: 16px 32px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.success {
+    border: 1px solid rgb(81, 150, 2);
+    background-color: rgba(113, 212, 0, 0.4);
+}

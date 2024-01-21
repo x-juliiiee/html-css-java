@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/exo_base_formulaire.css">
+</head>
+<header>
+    <h1 id="main-title">Formulaire de contact</h1>
+</header>
+<body>
+    <!--Les infos à remplir dans le formulaire-->
+    <form action="" method="post" enctype="multipart/form-data">
+        <div>
+            <label for="pseudo">Pseudo</label>
+            <input type="text" id="pseudo" name="pseudo" placeholder="Votre pseudo">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Votre email">
+        </div>
+        <div>
+            <label for="commentaire">Commentaire</label>
+            <textarea name="commentaire" id="commentaire" placeholder="Votre commentaire" cols="100" rows="5"></textarea>
+        </div>
+        <button type="submit">Envoyer</button>
+        <button type="cancel">Annuler</button>
+    </form>
+    <script src="main2.js"></script>
+</body>
+</html>

@@ -1,0 +1,253 @@
+body{
+    background-color: rgb(227, 212, 194);
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(208, 193, 175);
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: space-around;
+}
+.L{
+    display: flex;
+    justify-content: center;
+    color:rgb(192, 16, 16)
+}
+.PL{
+    display: flex;
+    justify-content: center;
+}
+.img1{
+    height: auto;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+.Z{
+    display: flex;
+    justify-content: center;
+    color: rgb(4, 86, 59);
+}
+.PZ{
+    display: flex;
+    justify-content: center;
+}
+.img2{
+    height: auto;
+    width: 340px;
+    display: block;
+    margin: 0 auto;
+}
+.N{
+    display: flex;
+    justify-content: center;
+    color: orange;
+}
+.PN{
+    display: flex;
+    justify-content: center;
+}
+.img3{
+    height: auto;
+    width: 260px;
+    display: block;
+    margin: 0 auto;
+}
+.U{
+    display: flex;
+    justify-content: center;
+    color: rgb(128, 73, 28);
+}
+.PU{
+    display: flex;
+    justify-content: center;
+}
+.img4{
+    height: auto;
+    width: 340px;
+    display: block;
+    margin: 0 auto;
+}
+.S{
+    display: flex;
+    justify-content: center;
+    color: rgb(219, 183, 4);
+}
+.PS{
+    display: flex;
+    justify-content: center;
+}
+.img5{
+    height: auto;
+    width: 280px;
+    display: block;
+    margin: 0 auto;
+}
+.C{
+    display: flex;
+    justify-content: center;
+    color: rgb(201, 142, 152)
+}
+.PC{
+    display: flex;
+    justify-content: center;
+}
+.img6{
+    height: auto;
+    width: 340px;
+    display: block;
+    margin: 0 auto;
+}
+.R{
+    display: flex;
+    justify-content: center;
+    color: rgb(85, 1, 203);
+}
+.PR{
+    display: flex;
+    justify-content: center;
+}
+.img7{
+    height: auto;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+.F{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 195, 255);
+}
+.PF{
+    display: flex;
+    justify-content: center;
+}
+.img8{
+    height: auto;
+    width: 340px;
+    display: block;
+    margin: 0 auto;
+}
+.B{
+    display: flex;
+    justify-content: center;
+    color: rgb(111, 110, 110);
+}
+.PB{
+    display: flex;
+    justify-content: center;
+}
+.img9{
+    height: auto;
+    width: 280px;
+    display: block;
+    margin: 0 auto;
+}
+.J{
+    display: flex;
+    justify-content: center;
+    color:rgb(24, 168, 252)
+}
+.PJ{
+    display: flex;
+    justify-content: center;
+}
+.img10{
+    height: auto;
+    width: 340px;
+    display: block;
+    margin: 0 auto;
+}
+.VM{
+    display: flex;
+    justify-content: center;
+    color: rgb(146, 113, 65);
+}
+.img11{
+    height: auto;
+    width: 280px;
+    display: block;
+    margin: 0 auto;
+}
+.TS{
+    display: flex;
+    justify-content: center;
+    color: rgb(160, 37, 37);
+}
+.img12{
+    height: auto;
+    width: 260px;
+    display: block;
+    margin: 0 auto;
+}
+.nav1{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: rgb(208, 193, 175);
+}
+.menu{
+    display: flex;
+}
+.nav2{
+    display: flex;
+}
+.nav3{
+    display: flex;
+}
+.nav4{
+    display: flex;
+}
+
+/*Le css des publicités dans le footer*/
+.swiper-slide {
+    height: auto;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.librairie {
+    padding: 40px 160px;
+    height: 320px;
+}
+button {
+    margin-left: 20px;
+    flex-direction: row;
+    margin-bottom: 30px;
+    padding: 10px 32px;
+    cursor: pointer;
+}
+
+.message-error {
+    border: 1px solid rgba(212, 42, 0, 1);
+    color: rgb(212, 42, 0);
+    background-color: rgba(212, 42, 0, 0.4);
+    padding: 16px 32px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.message-success {
+    border: 1px solid rgb(81, 150, 2);
+    color: rgb(81, 150, 2);
+    background-color: rgba(113, 212, 0, 0.4);
+    padding: 16px 32px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.success {
+    border: 1px solid rgb(81, 150, 2);
+    background-color: rgba(113, 212, 0, 0.4);
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="galerie.css">
+    <link rel="stylesheet" href="css/Site-Internet-page-1.css">
+</head>
+<body class="dark-mode">
+    <header>
+        <!--Titre et logo-->
+        <h1 id="main-title">C'est quoi One Piece ?</h1>
+        <img src="img/One_Piece_Logo.png" alt="Logo One Piece" class="image1">
+
+    </header>
+    <main>
+        <!--Infos sur One Piece + des photos-->
+        <div>
+            <img src="img/Drapeau_pirate.jpg" alt="Drapeau pirate" class="image2">
+            <img src="img/Chapeau_de_paille.jpg" alt="Chapeau de paille" class="image5">
+            <img src="img/Manga_Luffy.jpg" alt="Manga Luffy" class="image8">
+            <p class="texte1">One Piece raconte l’histoire d’un garçon au chapeau de paille et de son rêve de devenir le roi des pirates. Le manga/animé retrace l’aventure de ce fameux garçon nommé Monkey D. Luffy, accompagné de ses compagnons qu’il a recruté sur son chemin. Pour réaliser son rêve, il doit tout simplement trouver le One Piece que l’ancien roi des pirates a laissé quelque part dans ce monde. Cependant, cette tâche s’annonce plus difficile que prévu car personne ne sait à quoi ce trésor ressemble ni où il est caché. Luffy et ses compagnons devront faire face à plusieurs obstacles, parmi d’autres pirates, la Marine, des monstres marins, etc. Malgré ce chemin semé d’embuches, Luffy ne perd pas de vu son rêve et compte bien le réaliser coûte que coûte.</p>
+            <img src="img/Tête_de_mort.jpg" alt="Tête de mort" class="image3">
+            <img src="img/Paysage.webp" alt="Paysage" class="image6">
+            <img src="img/Tome_1.jpg" alt="Tome 1 One Piece" class="image9">
+        </div>
+        <!--Infos sur Eiichiro Oda + des photos-->
+        <div>
+            <p class="texte2">Eiichiro Oda est un mangaka japonais qui travaille nuit et jour pour sortir un chapitre par semaine de son manga One Piece, aussi interprété en animé. Ce mangaka de 48 ans a écrit le manga le plus vendu au début du XXIe siècle au Japon et dans le reste du monde. Il a également sorti 15 films en rapport avec l’animé, qui, certains sont en lien avec l’histoire principale, et d’autres sont hors chronologie. Eiichiro Oda a affirmé dans un SBS, qu’il ne s’occupe pas de tous les éléments du manga. Il s’occupe des croquis, des personnages et débute les décors. Et laisse ses assistants s’occuper d’élaborer les décors, ainsi que l’encrage et le tramage.</p>
+            <img src="img/Oda.jpg" alt="Eiichiro Oda" class="image4">
+            <img src="img/Oda_2.jpg" alt="Eiichiro Oda et One Piece" class="image7">
+            <img src="img/Collection.jpg" alt="Collection manga One Piece" class="image10">
+        </div>
+    </main>
+    <!--Ajouter des infos sur le manga et l'anime sous forme de menu burger-->
+    <section class="accordeon">
+        <div class="titre">
+            <p>A propos du manga</p>
+            <img src="img/fleche.png" alt="Fleche">
+        </div>
+        <div class="propos">
+            <ul>
+                <li>22 juillet 1997</li>
+                <li>107 tomes pour le moment</li>
+                <li>Editions Glénat</li>
+                <li>Fnac, librairie, Cultura</li>
+                <li>11 tomes collector</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="accordeon">
+        <div class="titre">
+            <p>A propos de l'anime</p>
+            <img src="img/fleche.png" alt="Fleche">
+        </div>
+        <div class="propos">
+            <ul>
+                <li>20 octobre 1999</li>
+                <li>1091 épisodes pour le moment</li>
+                <li>Toei Animation</li>
+                <li>ADN, Crunchiroll</li>
+                <li>15 films</li>
+            </ul>
+        </div>
+    </section>
+   
+    <footer class="dark-mode2">
+            <!--Des liens pour aller sur les pages correspondantes-->
+        <div>
+            <nav class="nav1">
+                <a href="Site-Internet-page-1.html">Page 1 </a>
+                <a href="Site-Internet-page-2.html"> 2 </a>
+                <a href="Site-Internet-page-3.html"> 3 </a>
+            </nav>
+        </div>
+        <div>
+            <p class="menu">Menu</p>
+        </div>
+            <!--Mettre un darkmode sur mon site-->
+       <!-- <button class="themeLogo">Dark</button>
+        <script>
+            const html = document.getElementsByTagName("html");
+            const themeSwitch = document.getElementById("themeLogo");
+
+            themeSwitch.addEventListener("click", () => {
+                html.classList.toggle("dark");
+
+                if(html.classList.contains("dark")){
+                    themeSwitch.innerHTML = "dark";
+
+                } else{
+                    themeSwitch.innerHTML = "light";
+                }
+            })
+        </script>-->
+            <!--Des liens pour aller sur les pages correspondantes-->
+        <div>
+            <nav class="nav2">
+                <a href="Site-Internet-page-1.html">C'est quoi One Piece ?</a>
+            </nav>
+        </div>
+        <div>
+            <nav class="nav3">
+                <a href="Site-Internet-page-2.html">Les membres de l'équipage du chapeau de paille</a>
+            </nav>
+        </div>
+        <div>
+            <nav class="nav4">
+                <a href="Site-Internet-page-3.html">Les différentes sagas</a>
+            </nav>
+        </div>
+        <!--Ajouter un formulaire pour pouvoir nous contacter-->
+        <div>
+            <nav>
+                <a href="Mon_formulaire_perso.html">Formulaire</a>
+            </nav>
+        </div>
+        <!--Mettre des slides pour faire de la publicité pour d'autres sites internet-->
+        <div class="librairie">
+         <swiper-container class="mySwiper" navigation="true">
+            <swiper-slide><img src="img/pubSofiane.png" alt="Publicité "></swiper-slide>
+            <swiper-slide><img src="img/pubFerhat.png" alt="Publicité de cartes Harry Potter"></swiper-slide>
+            <swiper-slide><img src="img/Sakura_Pub.png" alt="Publicité de Sakura cartes magiques"></swiper-slide>
+        </swiper-container>
+        </div>
+    </footer>
+    <!-- <p id="title">IM</p>
+    <img src="img/2-Luffy.jpg" alt="Photo de Luffy" id="img"> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

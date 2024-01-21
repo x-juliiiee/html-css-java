@@ -1,0 +1,135 @@
+*{
+    background-color: burlywood;
+}
+div {
+    margin:10em auto 0;
+    width:20em;
+    background-color:#fc3;
+    
+}
+h1{
+    text-align: center;
+    color: antiquewhite;
+    text-decoration: underline;
+    font-size: 4em;
+}
+
+h2{
+    color: antiquewhite;
+    text-decoration: underline;
+    font-size: 2em;
+}
+
+/*-------------------transform--------------------*/
+
+.boite{
+    transform: rotate(45deg) scale(1);
+    
+}
+
+.boite2{
+    transform: translate(5em,5em);
+}
+
+.boite3{
+    transform:skewx(30deg);
+}
+/*scale es le grossissement de la boite *//*il peut etre utiliser egalement afin de modifier la forme de la boite ecrit ainsi 
+scale (2(horizontal),0.5(vertical) il sera ecrit ainsi */
+/*rotate permet de faire tourner la boite */
+/*translate sert a decaler la boite (5em(horizontal),10em(vertical))*/
+/*skewx permet d incliner la boite */
+/*--------------------------transition--------------------------------------------------*/
+.boite4{
+    transition:all 1s;
+    transform: translate(50em,5em);
+}
+.boite4:hover{
+    transform:rotate(45deg);
+}
+
+
+
+/*la transition permet de mettre un timing a certain evenement plusieur parametre
+transition:all(qui) 1s(le temps) linear(fonction) 1s(delai)*/
+.boite5{
+    transition:background 15s,transform 10s;
+}
+.boite5:hover{
+    transform:rotate(45deg);
+    background-color:red;
+}
+
+/*on peut utilise les terme ease-in ou ease-out afin d accelerer ou de ralentir les effet de rotation*/
+
+.boite6{
+    transition:all 1s ease-out 1s;
+}
+.boite6:hover{
+    transform:rotate(45deg);
+    background-color:red;
+}
+
+/*--------------------------------animation-----------------------------------------*/
+/*le @keyframes doit etre nommer  pas dimportance sur le nom */
+.boite7{
+    animation:slideLeft 30s;
+}
+@keyframes slideLeft{/**/
+    from{
+        transform: translate(50%);
+        background: blue;
+    }
+    to{
+        transform: translate(0);
+    }
+}
+
+.boite8{
+     animation:slideRight 30s;
+}
+@keyframes slideRight{
+    from{
+        transform: translate(50%);
+        background: blue;
+    }
+    30% {
+        transform: translate(-50%);
+        background: red;
+        color:white;
+    }
+    80% {
+        transform: translate(200%);
+        background: green;
+        color:red;
+    }
+    to{
+        transform: translate(0);
+    }
+}
+
+
+/* pour l animation tu peut rajouter sur la ligne "infinite" et/ou "alternate"*/
+
+.boite9{
+     animation:slideNight 30s infinite;
+}
+@keyframes slideNight{
+    from{
+        transform: translate(50%);
+        background: blue;
+    }
+    30% {
+        transform: translate(-50%);
+        background: red;
+        color:white;
+    }
+    80% {
+        transform: translate(200%);
+        background: green;
+        color:red;
+    }
+    to{
+        transform: translate(0);
+    }
+}

@@ -1,0 +1,223 @@
+body{
+    background-color: rgb(227, 212, 194);
+}
+.image1{
+    height: auto;
+    width: 200px;
+    background-color: rgb(208, 193, 175);
+    display: flex;
+    justify-content: flex-start;
+}
+h1{
+    background-color: rgb(208, 193, 175);
+    display: flex;
+    justify-content: center;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: space-around;
+}
+.image2{
+    height: auto;
+    width: 430px;
+}
+.image3{
+    height: auto;
+    width: 400px;
+}
+.image4{
+    height: auto;
+    width: 350px;
+}
+.image5{
+    height: auto;
+    width: 430px;
+}
+.image6{
+    height: auto;
+    width: 550px;
+}
+.image7{
+    height: auto;
+    width: 420px;
+}
+.image8{
+    height: auto;
+    width: 430px;
+}
+.image9{
+    height: 400px;
+    width: 300px;
+}
+.image10{
+    height: auto;
+    width: 530px;
+}
+.nav1{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: rgb(208, 193, 175);
+}
+.menu{
+    display: flex;
+}
+.nav2{
+    display: flex;
+}
+.nav3{
+    display: flex;
+}
+.nav4{
+    display: flex;
+}
+.image11{
+    height: auto;
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+.red{
+    color: red;
+}
+
+/*Le css du menu burger*/
+.accordeon {
+    border: 1px solid rgba(146, 146, 146, 0.3);
+    width: 80%;
+    max-width: 600px;
+    margin: 10px auto;
+}
+.titre {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 8px 16px rgba(146, 146, 146, 0.3);
+}
+.titre img {
+    width: 20px;
+    height: 20px;
+    transition: 0.4s;
+}
+.titre p {
+    font-weight: 700;
+}
+.propos {
+    padding: 0 20px;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    transition: 0.4s;
+}
+.accordeon.open .titre img {
+    transform-origin: center;
+    transform: rotate(90deg);
+}
+.accordeon.open .propos {
+    padding: 30px 20px;
+    height: auto;
+    visibility: visible;
+}
+
+/*Le css des publicités dans le footer*/
+.swiper-slide {
+    height: auto;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.librairie {
+    padding: 40px 160px;
+    height: 320px;
+}
+
+.body {
+    background-color:rgb(227, 212, 194);
+}
+button {
+    margin-left: 20px;
+    flex-direction: row;
+    margin-bottom: 30px;
+    padding: 10px 32px;
+    cursor: pointer;
+}
+
+.message-error {
+    border: 1px solid rgba(212, 42, 0, 1);
+    color: rgb(212, 42, 0);
+    background-color: rgba(212, 42, 0, 0.4);
+    padding: 16px 32px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.message-success {
+    border: 1px solid rgb(81, 150, 2);
+    color: rgb(81, 150, 2);
+    background-color: rgba(113, 212, 0, 0.4);
+    padding: 16px 32px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.success {
+    border: 1px solid rgb(81, 150, 2);
+    background-color: rgba(113, 212, 0, 0.4);
+}
+
+/*
+.dark {
+    background-color: rgb(34, 32, 32);
+}
+.dark .texte1 {
+    color: #fff;
+}
+.dark .texte2 {
+    color: #fff;
+}
+.dark .accordeon {
+    color: #fff;
+}
+.dark .titre img {
+    color: #fff;
+}
+.dark .reset {
+    cursor: pointer;
+}
+
+
+.dark.header {
+    background-color: rgb(26, 24, 24);
+}
+.dark.footer {
+    background-color: rgb(26, 24, 24);
+}
+*/
+
+/*
+.dark-mode {
+    background-color: rgb(57, 53, 53);
+    color: white;
+}
+.dark-mode2 .footer {
+    background-color: black;
+}
+*/
+
+/*
+#themeLogo {
+    cursor: pointer;
+    right: 30px;
+    font-size: 40px;
+}
+*/

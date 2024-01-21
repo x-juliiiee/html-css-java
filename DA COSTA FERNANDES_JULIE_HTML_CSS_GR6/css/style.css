@@ -1,0 +1,28 @@
+/*Commentaire*/
+/*
+selecteur{
+    propriété: valeur;
+    propriété: valeur;
+    propriété: valeur;
+    propriété: valeur;
+}
+*/
+body{
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+div{
+    color:rgb(192, 16, 16)
+}
+.multiple{
+    color: rgb(219, 183, 4);
+}
+#unique{
+    color: rgb(134, 134, 134);
+}
+.multiple1{
+    color: rgb(4, 86, 59);
+}

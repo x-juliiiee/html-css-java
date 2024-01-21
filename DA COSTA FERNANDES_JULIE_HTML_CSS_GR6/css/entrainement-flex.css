@@ -1,0 +1,47 @@
+header{
+    background-color: blueviolet;
+    color: rgb(255, 255, 255);
+    min-height: 15vh;
+}
+nav{
+    background-color: yellow;
+    color: rgb(255, 255, 255);
+    min-height: 15vh;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.A{
+    background-color: red;
+    color: grey;
+    width: 50%;
+    min-height: 15vh;
+}
+
+.B{
+    background-color: blue;
+    color: grey;
+    width: 50%;
+    min-height: 15vh;
+}
+
+.C{
+    background-color: green;
+    color: grey;
+    width: 50%;
+    min-height: 15vh;
+}
+.D{
+    background-color: blueviolet;
+    color: grey;
+    width: 50%;
+    min-height: 15vh;
+}
+footer{
+    background-color: red;
+    color: rgb(255, 255, 255);
+    min-height: 15vh;
+}
